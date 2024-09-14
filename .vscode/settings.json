@@ -1,0 +1,65 @@
+{
+  "cSpell.language": "en,es",
+  "cSpell.words": [
+    "airbnb",
+    "classnames",
+    "composable",
+    "fontsource",
+    "intlify",
+    "isotype",
+    "tailwindcss",
+    "tethereducation",
+    "vuejs",
+    "vueuse"
+  ],
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "json.format.enable": true,
+  "editor.rulers": [
+    100
+  ],
+  "[vue]": {
+    "editor.tabSize": 2,
+    "editor.indentSize": "tabSize"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.scss": "tailwindcss"
+  },
+  "turboConsoleLog.logMessagePrefix": "🚀 [TDS]",
+  "turboConsoleLog.quote": "'",
+  "turboConsoleLog.insertEnclosingFunction": true,
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "class-name",
+    "activeClass",
+    "active-class"
+  ],
+  "tailwindCSS.hovers": true,
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "cva\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ],
+    [
+      "cx\\(([^)]*)\\)",
+      "(?:'|\"|`)([^']*)(?:'|\"|`)"
+    ]
+  ],
+  "editor.hover.enabled": true,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
